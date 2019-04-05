@@ -1,0 +1,52 @@
+﻿@model IEnumerable<GerenciamentoVendasMovel.Models.Funcionario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Nome do móvel
+        </th>
+        <th>
+            Status do móvel
+        </th>
+        <th>
+            Nome do funcionário
+        </th>
+        <th>
+           Status funcionário
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Movel.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Movel.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status_Disponibilidade_Funcionario)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.FuncionarioId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.FuncionarioId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.FuncionarioId })
+        </td>
+    </tr>
+}
+
+</table>

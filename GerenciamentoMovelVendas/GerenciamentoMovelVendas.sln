@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoMovelVendas", "GerenciamentoMovelVendas\GerenciamentoMovelVendas.csproj", "{580D250B-928C-4D97-8C62-D21B0C92E9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{580D250B-928C-4D97-8C62-D21B0C92E9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580D250B-928C-4D97-8C62-D21B0C92E9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580D250B-928C-4D97-8C62-D21B0C92E9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580D250B-928C-4D97-8C62-D21B0C92E9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27042706-73A4-4649-B646-1CF61E954041}
+	EndGlobalSection
+EndGlobal
